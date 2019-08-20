@@ -1,0 +1,21 @@
+.sidebar-app{
+    background-color: #f9f9f9 !important;
+    border-right: 3px solid #EDEEF2 !important;
+    padding-top: 40px;
+    .item{
+        height: 90px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        width: 100%;
+        i{
+            font-size: 28px;
+            margin-left: 0 !important;
+            color: #83858F;
+        }
+        &:before{
+            width: 0 !important;
+        }
+    }
+}
