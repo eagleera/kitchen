@@ -14,6 +14,7 @@ import HomePage from 'containers/HomePage/Loadable';
 import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
+import Sidebar from 'components/Sidebar';
 import Footer from 'components/Footer';
 import './style.scss';
 
@@ -26,6 +27,7 @@ const App = () => (
       <meta name="description" content="A React.js Boilerplate application" />
     </Helmet>
     <Header />
+    <Sidebar animation="scale down" direction="left" visible="true" />
     <Switch>
       <Route exact path="/" component={HomePage} />
       <Route path="/features" component={FeaturePage} />
